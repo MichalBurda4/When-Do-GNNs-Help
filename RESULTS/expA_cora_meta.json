@@ -1,0 +1,25 @@
+{
+  "experiment": "A_edge_deletion",
+  "dataset": "Cora",
+  "drop_fracs": [
+    0.0,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "epochs": 200,
+  "models": [
+    "mlp",
+    "xgboost",
+    "gcn"
+  ]
+}

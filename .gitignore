@@ -19,3 +19,6 @@ _*/
 # Local temp extracts
 class3-presentation/_*.txt
 *.zip
+
+# Downloaded graph data (re-fetched by scripts)
+code/data/

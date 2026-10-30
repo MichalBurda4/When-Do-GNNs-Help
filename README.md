@@ -14,8 +14,19 @@ When do Graph Neural Networks beat simple tabular models (MLP / XGBoost), and ho
 - `papers/` — assigned research papers (PDFs)
 - `LITERATURE.csv` — reading matrix
 - `class3-presentation/` — Beamer (AGH theme) slides + PDF
+- `code/` — Class 4 baselines (data audit + MLP / XGBoost / GCN)
+- `RESULTS/` — saved audit + baseline metrics
 - `gnn-explainer.html` — simple experiment explainer
 - `CI2026-ProjectClasses_v3.pdf` — course project instructions
+
+## Quick start (Class 4)
+
+```bash
+cd code
+pip install -r requirements.txt
+python scripts/audit_data.py --dataset Cora
+python scripts/run_baselines.py --dataset Cora --seeds 0 1 2 3 4
+```
 
 ## Presentation (Overleaf / local)
 

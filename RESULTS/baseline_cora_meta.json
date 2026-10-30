@@ -1,0 +1,20 @@
+{
+  "dataset": "Cora",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "epochs": 200,
+  "hidden": 64,
+  "lr": 0.01,
+  "weight_decay": 0.0005,
+  "models": [
+    "mlp",
+    "xgboost",
+    "gcn"
+  ],
+  "note": "Class 4 clean-graph baseline before edge stress tests."
+}

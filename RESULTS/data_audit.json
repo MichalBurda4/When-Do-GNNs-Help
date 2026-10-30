@@ -1,0 +1,23 @@
+{
+  "dataset": "Cora",
+  "num_nodes": 2708,
+  "num_edges_undirected": 5278,
+  "num_features": 1433,
+  "num_classes": 7,
+  "train_nodes": 140,
+  "val_nodes": 500,
+  "test_nodes": 1000,
+  "split_overlap_nodes": 0,
+  "class_counts": {
+    "0": 351,
+    "1": 217,
+    "2": 418,
+    "3": 818,
+    "4": 426,
+    "5": 298,
+    "6": 180
+  },
+  "feature_min": 0.0,
+  "feature_max": 1.0,
+  "feature_mean": 0.000697836687322706
+}
