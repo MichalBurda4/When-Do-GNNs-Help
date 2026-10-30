@@ -1,0 +1,10 @@
+{
+  "experiment": "B_fake_edges",
+  "dataset": "Cora",
+  "add_fracs": [0.0, 0.15, 0.3, 0.45, 0.6, 0.75],
+  "seeds": [0, 1, 2],
+  "epochs": 200,
+  "models": ["mlp", "xgboost", "gcn"],
+  "status": "partial_class5",
+  "note": "add_frac is relative to the number of real undirected edges. Class 5 run uses 3 seeds (0-2); extend to 5 seeds for Class 6."
+}
