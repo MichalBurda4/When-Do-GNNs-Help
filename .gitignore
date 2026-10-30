@@ -1,0 +1,21 @@
+# LaTeX build artefacts
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.tmp
+_*/
+
+# Local temp extracts
+class3-presentation/_*.txt
+*.zip
